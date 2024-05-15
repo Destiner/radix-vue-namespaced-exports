@@ -1,0 +1,23 @@
+{
+  "name": "radix-vue-namespaced-exports",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint \"src/**/*.{js,ts,vue}\""
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "eslint": "8.57.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-vue": "^9.26.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "radix-vue": "^1.7.4",
+    "vue": "^3.4.27"
+  }
+}
